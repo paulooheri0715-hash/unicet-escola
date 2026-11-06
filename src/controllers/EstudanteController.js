@@ -19,7 +19,7 @@ class EstudanteController {
     });
   }
 
-  // Salvar Estudante
+  // Salvar Novo Estudante
   static salvar(req, res) {
     const { nome, dataNascimento, telefone } = req.body;
     if (!nome || !dataNascimento) {
